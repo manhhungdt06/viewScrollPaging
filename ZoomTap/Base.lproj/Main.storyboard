@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
@@ -28,15 +28,11 @@
                                     <outlet property="delegate" destination="BYZ-38-t0r" id="HJf-oG-130"/>
                                 </connections>
                             </scrollView>
-                            <slider opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="7o1-Ok-o2i">
-                                <frame key="frameInset" minX="16" minY="557" width="343" height="31"/>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="7o1-Ok-o2i">
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="6JQ-d8-ad7"/>
                                     <constraint firstAttribute="width" constant="339" id="gve-vq-OtE"/>
                                 </constraints>
-                                <connections>
-                                    <action selector="sliderZoom:" destination="BYZ-38-t0r" eventType="valueChanged" id="fuL-22-g5b"/>
-                                </connections>
                             </slider>
                             <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="fNz-Ra-xhU">
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -53,17 +49,12 @@
                         <constraints>
                             <constraint firstItem="7o1-Ok-o2i" firstAttribute="top" secondItem="zgy-oj-4ZH" secondAttribute="bottom" constant="14" id="22h-xq-5SQ"/>
                             <constraint firstItem="zgy-oj-4ZH" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="2as-FF-uIa"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="7o1-Ok-o2i" secondAttribute="bottom" constant="80" id="4X1-e1-mbQ"/>
                             <constraint firstAttribute="trailingMargin" secondItem="7o1-Ok-o2i" secondAttribute="trailing" constant="2" id="89g-5I-WTM"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="fNz-Ra-xhU" secondAttribute="bottom" constant="20" id="JHt-f6-FpM"/>
                             <constraint firstItem="fNz-Ra-xhU" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="MbF-dR-rG9"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="zgy-oj-4ZH" secondAttribute="bottom" constant="124" id="NMl-dV-ZBv"/>
                             <constraint firstItem="zgy-oj-4ZH" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="X9M-4b-ADu"/>
-                            <constraint firstItem="7o1-Ok-o2i" firstAttribute="top" secondItem="zgy-oj-4ZH" secondAttribute="bottom" constant="15" id="YfM-ww-CMu"/>
                             <constraint firstItem="fNz-Ra-xhU" firstAttribute="top" secondItem="7o1-Ok-o2i" secondAttribute="bottom" constant="23" id="mmP-kd-ZZV"/>
                             <constraint firstItem="fNz-Ra-xhU" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="ojv-DK-BAV"/>
                             <constraint firstItem="zgy-oj-4ZH" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="pdS-fQ-eHQ"/>
-                            <constraint firstItem="7o1-Ok-o2i" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="2" id="yKS-ab-Ppr"/>
                         </constraints>
                     </view>
                     <connections>
